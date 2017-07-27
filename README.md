@@ -1,18 +1,18 @@
-# Realtime Multi-Person Pose Estimation On One GPU(Tesla M40).
-I compression the time of the algorithm from 1fps to 30fps.
+# Realtime Multi-Person Pose Estimation On One GPU(30fps).
+Compression the time of the algorithm from 1fps to 30fps on one GPU(Tesla M40) .
 
+## Modification
 By [Maycbj](https://github.com/Maycbj)
-### Modification
 - change the [VGG-19](https://gist.github.com/ksimonyan/3785162f95cd2d5fee77) to [SqueezeNet](https://github.com/DeepScale/SqueezeNet).
 - remove some stages and layers from the original model, and retraining the model.
-- compression the time of prediction, the elapsed time reduce to 10% 
-
+- compression the time of prediction, the elapsed time reduce to 5% 
 
 
 This repository is a modification of the [original repository](https://github.com/Maycbj/Realtime_Multi-Person_Pose_Estimation)  
+
+## Origin Repository Introduction
 By [Zhe Cao](http://www.andrew.cmu.edu/user/zhecao), [Tomas Simon](http://www.cs.cmu.edu/~tsimon/), [Shih-En Wei](https://scholar.google.com/citations?user=sFQD3k4AAAAJ&hl=en), [Yaser Sheikh](http://www.cs.cmu.edu/~yaser/).
 
-## Introduction
 Code repo for winning 2016 MSCOCO Keypoints Challenge, 2016 ECCV Best Demo Award, and 2017 CVPR Oral paper.  
 
 Watch our video result in [YouTube](https://www.youtube.com/watch?v=pW6nZXeWlGM&t=77s) or [our website](http://posefs1.perception.cs.cmu.edu/Users/ZheCao/humanpose.mp4). 
