@@ -5,7 +5,7 @@ Compression the time of the algorithm from 1fps to 30fps on one GPU(Tesla M40) .
 By [Maycbj](https://github.com/Maycbj)
 - change the [VGG-19](https://gist.github.com/ksimonyan/3785162f95cd2d5fee77) to [SqueezeNet](https://github.com/DeepScale/SqueezeNet).
 - remove some stages and layers from the original model, and retraining the model.
-- compression the time of prediction, the elapsed time reduce to 5% 
+- compression the time of prediction, the elapsed time reduce to 3% 
 
 
 This repository is a modification of the [original repository](https://github.com/Maycbj/Realtime_Multi-Person_Pose_Estimation)  
